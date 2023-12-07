@@ -235,11 +235,12 @@ img.loading {
 }
 
 /* =================
-      Output 
-     ================= */
+Output 
+================= */
 
 .output-container {
-  display: none;
+  /* ... when we coumment out this, the container appears at the bottom of the page...  */
+  /* display: none; */
   flex-direction: column;
   margin: 1em auto;
   color: var(--dark);
